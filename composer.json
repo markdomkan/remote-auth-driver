@@ -1,0 +1,25 @@
+{
+    "name": "mark-domkan/remote-auth-driver",
+    "description": "Adds the ability to use remote auth server to authenticate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Domkan"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkDomkan\\RemoteAuthDriver\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarkDomkan\\RemoteAuthDriver\\RemoteAuthDriverServiceProvider"
+            ]
+        }
+    }
+}
