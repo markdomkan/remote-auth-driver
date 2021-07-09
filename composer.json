@@ -1,5 +1,5 @@
 {
-    "name": "mark-domkan/remote-auth-driver",
+    "name": "markdomkan/remote-auth-driver",
     "description": "Adds the ability to use remote auth server to authenticate",
     "license": "MIT",
     "authors": [
